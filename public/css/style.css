@@ -1,0 +1,81 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; 
+    width: 100vw;  
+    background: url("../images/1.PNG") no-repeat center center fixed; 
+    background-size: cover; 
+    background-attachment: fixed; 
+    font-family: Arial, sans-serif;
+}
+       
+h2 {
+    /* background-color: rgb(62, 87, 186); */
+    color: #fff;
+    font-size: 28px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: rgba(255, 255, 255, 0.8);  */
+    /* padding: 20px; */
+    /* border-radius: 8px; */
+ /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  */
+}
+
+/* .info {
+    display: none; 
+    background-color: rgba(255, 255, 255, 0.8); 
+    border: 2px solid #ddd; 
+    border-radius: 8px; 
+    padding: 20px; 
+    max-width: 800px; 
+    margin: 20px auto; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+} */
+
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.623); 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+#form1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#form1 input[type="text"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
+    box-sizing: border-box; 
+}
+
+#form1 button {
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(101, 127, 230);
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#form1 button:hover {
+    background-color: #0056b3;
+}
+
